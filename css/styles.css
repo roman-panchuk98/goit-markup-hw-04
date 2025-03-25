@@ -1,0 +1,391 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ul,ol {
+   list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#434455;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.logotype-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.navigation-header-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.navigation-link {
+    color: #2e2f42;
+}
+
+.contacts-header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style:normal;
+}
+
+.contacts-header .contacts-header-link:hover,
+.contacts-header .contacts-header-link:focus {
+    color: #404bbf ;
+}
+
+.navigation-header-list .navigation-link:hover,
+.navigation-header-list .navigation-link:focus {
+    color: #404bbf ;
+}
+/* First section */
+.hero-section {
+    background-color: #2e2f42;
+}
+
+.hero-section-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    width: 496px;
+}
+
+.hero-section-button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-size: 16px;
+    background: #4d5ae5;
+}
+
+.hero-section-button:hover,
+.hero-section-button:focus {
+    background-color: #404bbf;
+}
+
+/* Information Section */
+.information-section-title {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.information-section-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+/* Team Section */
+.team-section {
+    background-color: #f4f4fd;
+}
+
+.team-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-section-item {
+    background-color: #ffffff;
+}
+
+.team-section-item-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-size: 20px;
+}
+
+.team-section-item-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+/* Portfolio section */
+.portfolio-section-title {
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-section-item-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-size: 20px;
+}
+
+.portfolio-section-item-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+    background: #2e2f42;
+}
+
+.logotype-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+    font-size: 18px;
+}
+
+.footer-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    font-size: 16px;
+}
+
+.footer-studio {
+    color: #f4f4fd;
+}
+
+/* Homework 3 */
+
+/* Global settings */
+
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    justify-content: space-between;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: center;
+}
+
+.logotype-header {
+    margin-right: 76px;
+}
+
+.navigation-header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 24px 0;
+}
+
+.contacts-header {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-header-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* 1 HERO SECTION */
+
+.hero-section {
+    padding: 188px 0;
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.hero-section-title {
+    max-width: 496px;
+}
+
+.hero-section-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+/* 2 Information section */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.information-section-list {
+    display: flex;
+    gap: 24px;
+}
+
+.information-section-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+/* 3 Team section */
+
+.team-section-title {
+    margin-bottom: 72px; 
+}
+
+.team-section-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-section-item {
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-section-item-information {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.team-section-item-name {
+    margin-bottom: 8px;
+}
+
+/* 4 Portfolio section */
+
+.portfolio-section-title {
+    margin-bottom: 72px;
+}
+
+.portfolio-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-section-list-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-section-item-information {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-section-item-name {
+    margin-bottom: 8px;
+}
+
+
+/* Footer */
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logotype-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-info {
+    max-width: 264px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
